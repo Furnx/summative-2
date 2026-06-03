@@ -2,6 +2,9 @@ package summative;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import summative.robot.SniperRobot;
+import summative.robot.TankRobot;
+import summative.robot.Robot;
 
 import java.awt.*;
 
@@ -10,7 +13,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class RobotTest {
 
     private SniperRobot sniper;
-    private TankRobot   tank;
+    private TankRobot tank;
 
     @BeforeEach
     void setUp() {

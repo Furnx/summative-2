@@ -1,9 +1,11 @@
 package summative;
 
-import za.co.wethinkcode.robot.SniperRobot;
-import za.co.wethinkcode.robot.TankRobot;
+import summative.robot.SniperRobot;
+import summative.robot.TankRobot;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import summative.world.Obstacle;
+import summative.world.World;
 
 import java.util.List;
 
@@ -11,8 +13,8 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class WorldTest {
 
-    private World         world;
-    private Obstacle      centralObstacle;
+    private World world;
+    private Obstacle centralObstacle;
     private SniperRobot   sniper;
     private TankRobot     tank;
 

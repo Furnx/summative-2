@@ -7,6 +7,7 @@ import org.junit.jupiter.api.Test;
 import summative.world.Obstacle;
 import summative.world.World;
 
+import javax.swing.text.Position;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
